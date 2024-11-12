@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saweria Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/output.css" />
+  </head>
+  <body class="bg-white flex items-center justify-center min-h-screen">
+    <section>
+      <div class="w-[500px]">
+        <div
+          class="bg-biru1 rounded-lg p-2 border-black border-[1px] shadow-[5px_5px_0px_0px_rgba(0,0,0)]"
+        >
+          <div class="flex justify-center mb-4">
+            <div class="flex space-x-2">
+              <img
+                src="/assets/logo.png"
+                alt="Character 1"
+                class="w-48 h-auto"
+              />
+            </div>
+          </div>
+          <h1 class="text-4xl font-semibold text-center text-gray-800 mb-2">
+            saweria.co
+          </h1>
+          <p class="text-center text-lg text-gray-600 mb-6">Login</p>
+
+          <form>
+            <label
+              class="block text-sm font-medium text-gray-700 mb-1"
+              for="email"
+              >Email:</label
+            >
+            <input
+              type="email"
+              id="email"
+              placeholder="email@pribadi.com"
+              class="block w-full px-4 py-2 border-b-[1px] border-black focus:outline-none bg-biru1 text-gray-800"
+            />
+
+            <label
+              class="block text-sm font-medium text-gray-700 mt-4 mb-1"
+              for="password"
+              >Password:</label
+            >
+            <input
+              type="password"
+              id="password"
+              placeholder="********"
+              class="block w-full px-4 py-2 border-b-[1px] border-black focus:outline-none bg-biru1 text-gray-800"
+            />
+
+            <div class="flex items-center justify-between mt-4">
+              <a href="#" class="text-sm button hover:underline"
+                >Lupa Password</a
+              >
+              <button
+                type="submit"
+                class="bg-login focus:shadow-[3px_3px_0px_0px_rgba(0,0,0)] text-black py-2 px-20 rounded m-2 border-black border-[1px] shadow-[5px_5px_0px_0px_rgba(0,0,0)]"
+              >
+                Masuk
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="grid grid-cols-2 mt-5">
+          <div>
+            <p>Made With love from Me</p>
+            <br />
+            <p>PT Lorem Ipsum</p>
+          </div>
+          <div>
+            <p class="underline text-right">Syarat dan Ketentuan</p>
+            <p class="underline text-right">FAQ</p>
+            <p class="underline text-right">Changelog</p>
+          </div>
+        </div>
+        <div><br /></div>
+      </div>
+    </section>
+  </body>
+</html>

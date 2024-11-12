@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{html,js}"], // Sesuaikan jika ada path lain
+  content: ["./index.html", "./view/login.html"], // Sesuaikan jika ada path lain
   theme: {
     extend: {
       colors: {

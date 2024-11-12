@@ -580,6 +580,10 @@ body {
   outline-offset: 2px;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -591,6 +595,16 @@ body {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .mb-1 {
@@ -629,6 +643,26 @@ body {
   margin-top: 1.25rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -641,8 +675,16 @@ body {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-auto {
   height: auto;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .min-h-screen {
@@ -705,6 +747,10 @@ body {
   width: 550px;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -765,6 +811,10 @@ body {
   border-width: 1px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -773,9 +823,23 @@ body {
   border-bottom-width: 1px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.border-biru1 {
+  --tw-border-opacity: 1;
+  border-color: rgb(242 247 245 / var(--tw-border-opacity));
 }
 
 .bg-biru1 {
@@ -831,6 +895,31 @@ body {
   padding-right: 5rem;
 }
 
+.px-56 {
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+.px-60 {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -847,6 +936,22 @@ body {
   padding-left: 10rem;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pr-52 {
+  padding-right: 13rem;
+}
+
+.pr-44 {
+  padding-right: 11rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -857,6 +962,10 @@ body {
 
 .text-right {
   text-align: right;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-sans {
@@ -881,6 +990,19 @@ body {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[7px\] {
+  font-size: 7px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .font-bold {
@@ -915,6 +1037,20 @@ body {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-\[7-x\] {
+  color: 7-x;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -929,6 +1065,56 @@ body {
   --tw-shadow: 8px 8px 0px 0px rgba(0,0,0);
   --tw-shadow-colored: 8px 8px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.placeholder\:-mb-3::-moz-placeholder {
+  margin-bottom: -0.75rem;
+}
+
+.placeholder\:-mb-3::placeholder {
+  margin-bottom: -0.75rem;
+}
+
+.placeholder\:-mb-\[3px\]::-moz-placeholder {
+  margin-bottom: -3px;
+}
+
+.placeholder\:-mb-\[3px\]::placeholder {
+  margin-bottom: -3px;
+}
+
+.placeholder\:-mb-11::-moz-placeholder {
+  margin-bottom: -2.75rem;
+}
+
+.placeholder\:-mb-11::placeholder {
+  margin-bottom: -2.75rem;
+}
+
+.placeholder\:block::-moz-placeholder {
+  display: block;
+}
+
+.placeholder\:block::placeholder {
+  display: block;
+}
+
+.invalid\:visible:invalid {
+  visibility: visible;
+}
+
+.invalid\:block:invalid {
+  display: block;
+}
+
+.invalid\:border-red-700:invalid {
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
+.invalid\:border-red-500:invalid {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .hover\:underline:hover {
@@ -949,4 +1135,13 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.focus\:ring-blue-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
+}
+
+.peer:invalid ~ .peer-invalid\:visible {
+  visibility: visible;
 }

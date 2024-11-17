@@ -655,6 +655,10 @@ body {
   width: 100%;
 }
 
+.w-\[5px\] {
+  width: 5px;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
